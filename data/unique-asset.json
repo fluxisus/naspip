@@ -1,0 +1,13 @@
+[
+    {
+      "id": "nbitcoin_tBTC",
+      "name": "Bitcoin",
+      "network": "bitcoin",
+      "token": "BTC",
+      "symbol": "BTC",
+      "decimals": 8,
+      "info": {
+        "url": "https://bitcoin.org"
+      }
+    }
+  ]
