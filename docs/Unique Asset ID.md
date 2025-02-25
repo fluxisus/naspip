@@ -23,3 +23,5 @@ n{network}_t{token}
 - USDT (Tron - TRC20): ntrc20_tTR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t
 - BTC (Bitcoin): nbitcoin_tBTC
 - BTC (Lightning Network): nlightningnetwork_tBTC
+- ARS (Bank Argentina): nbank-arg_tARS 
+- USD (Bank Argentina): nbank-arg_tUSD
