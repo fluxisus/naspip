@@ -1,0 +1,72 @@
+[
+    {
+        "networt": "arbitrum",
+        "name": "Arbitrum One",
+        "info": {
+            "url": "https://arbitrum.io/"
+        }
+    },
+    {
+        "networt": "base",
+        "name": "Base",
+        "info": {
+            "url": "https://www.base.org/"
+        }
+    },
+    {
+        "networt": "bep20",
+        "name": "BNB Smart Chain",
+        "info": {
+            "url": "https://www.bnbchain.org"
+        }
+    },
+    {
+        "networt": "bitcoin",
+        "name": "Bitcoin",
+        "info": {
+            "url": "https://bitcoin.org"
+        }
+    },
+    {
+        "networt": "erc20",
+        "name": "Ethereum",
+        "info": {
+            "url": "https://bitcoin.org"
+        }
+    },
+    {
+        "networt": "lightning-network",
+        "name": "Lightning Network",
+        "info": {
+            "url": "https://lightning.network/"
+        }
+    },
+    {
+        "networt": "polygon",
+        "name": "Polygon",
+        "info": {
+            "url": "https://polygon.technology/"
+        }
+    },
+    {
+        "networt": "stellar",
+        "name": "Stellar",
+        "info": {
+            "url": "https://stellar.org"
+        }
+    },
+    {
+        "networt": "solana",
+        "name": "Solana",
+        "info": {
+            "url": "https://solana.com"
+        }
+    },
+    {
+        "networt": "trc20",
+        "name": "Tron",
+        "info": {
+            "url": "https://www.tron.org/"
+        }
+    }
+]
