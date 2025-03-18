@@ -34,9 +34,11 @@ some interesting cases that I want to highlight.
 - **Lightning Network**
 LN invoices are very practical to present in a QR code and can be generated dynamically with an expiration for both open and closed amounts. In turn, the [LNURL](https://github.com/lnurl/luds) protocol allows generating static QR codes with a public encoding of a URL. It is a very simple and easy to implement, the only disadvantage is that there is no validation or verification of the data encoding.
 </br>
-- **PIX Brazil** 
+
+- **PIX Brazil**
 A centralized interoperable solution from the [Central Bank of Brazil (BCB)](https://www.bcb.gov.br/en/financialstability/pix_en). It is a very good solution for payments with the Brazilian banking system.
 </br>
+
 - **QR Interoperable Argentina** 
 A centralized interoperable solution from the [Central Bank of Argentina (BCRA)](https://www.bcra.gob.ar/), very similar to the PIX Brazil solution. It uses the [EMV&reg; QR](https://www.emvco.com/) standard and the data validation is carried out by the parties that interact in the payment process.
 </br>
