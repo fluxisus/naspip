@@ -1,0 +1,68 @@
+syntax = "proto3";
+package protobuf;
+
+option go_package = "encoding/protobuf";
+
+message PaymentInstruction {
+  string id = 1 [json_name = "id"];
+  string address = 2 [json_name = "address"];
+  string address_tag = 3 [json_name = "address_tag"];
+  string unique_asset_id = 4 [json_name = "unique_asset_id"];
+  bool is_open = 5 [json_name = "is_open"];
+  string amount = 6 [json_name = "amount"];
+  string min_amount = 7 [json_name = "min_amount"];
+  string max_amount = 8 [json_name = "max_amount"];
+  int64 expires_at = 9 [json_name = "expires_at"];
+}
+
+message InstructionMerchant {
+  string name = 1 [json_name = "name"];
+  string description = 2 [json_name = "description"];
+  string tax_id = 3 [json_name = "tax_id"];
+  string image = 4 [json_name = "image"];
+  string mcc = 5 [json_name = "mcc"];
+}
+
+message InstructionItem {
+  string description = 1 [json_name = "description"];
+  string amount = 2 [json_name = "amount"];
+  string coin_code = 3 [json_name = "coin_code"];
+  string unit_price = 4 [json_name = "unit_price"];
+  int32 quantity = 5 [json_name = "quantity"];
+}
+
+message InstructionOrder {
+  string total = 1 [json_name = "total"];
+  string coin_code = 2 [json_name = "coin_code"];
+  string description = 3 [json_name = "description"];
+  InstructionMerchant merchant = 4 [json_name = "merchant"];
+  repeated InstructionItem items = 5 [json_name = "items"];
+}
+
+message InstructionPayload {
+  PaymentInstruction payment = 1 [json_name = "payment"];
+  InstructionOrder order = 2 [json_name = "order"];
+} 
+
+message UrlPayload {
+	string url = 1 [json_name = "url"];
+	repeated string payment_options = 2 [json_name = "payment_options"];
+	InstructionOrder order = 3 [json_name = "order"];
+}
+
+message PasetoTokenData {
+	string iss = 1;
+	string sub = 2;
+	string aud = 3;
+	string exp = 4;
+	string nbf = 5;
+	string iat = 6;
+	string jti = 7;
+	string kid = 8;
+	string kep = 9;
+	string kis = 10;
+	oneof data {
+    InstructionPayload instruction_payload = 11 [json_name = "data"];
+    UrlPayload url_payload = 12 [json_name = "data"];
+  }
+}
