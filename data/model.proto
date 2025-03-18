@@ -1,8 +1,6 @@
 syntax = "proto3";
 package protobuf;
 
-option go_package = "encoding/protobuf";
-
 message PaymentInstruction {
   string id = 1 [json_name = "id"];
   string address = 2 [json_name = "address"];
