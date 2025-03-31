@@ -3,21 +3,32 @@
         "networt": "arbitrum",
         "name": "Arbitrum One",
         "info": {
-            "url": "https://arbitrum.io/"
+            "url": "https://arbitrum.io/",
+            "chainId": "42161"
+        }
+    },
+    {
+        "networt": "avalanche",
+        "name": "Avalanche C-Chain",
+        "info": {
+            "url": "https://www.avax.network/",
+            "chainId": "43114"
         }
     },
     {
         "networt": "base",
         "name": "Base",
         "info": {
-            "url": "https://www.base.org/"
+            "url": "https://www.base.org/",
+            "chainId": "8453"
         }
     },
     {
         "networt": "bep20",
         "name": "BNB Smart Chain",
         "info": {
-            "url": "https://www.bnbchain.org"
+            "url": "https://www.bnbchain.org",
+            "chainId": "56"
         }
     },
     {
@@ -31,7 +42,8 @@
         "networt": "erc20",
         "name": "Ethereum",
         "info": {
-            "url": "https://bitcoin.org"
+            "url": "https://bitcoin.org",
+            "chainId": "1"
         }
     },
     {
@@ -42,10 +54,19 @@
         }
     },
     {
+        "networt": "optimism",
+        "name": "Optimism",
+        "info": {
+            "url": "https://www.optimism.io/",
+            "chainId": "10"
+        }
+    },
+    {
         "networt": "polygon",
         "name": "Polygon",
         "info": {
-            "url": "https://polygon.technology/"
+            "url": "https://polygon.technology/",
+            "chainId": "137"
         }
     },
     {

@@ -16,6 +16,22 @@
     "decimals": 6
   },
   {
+    "id": "navalanche_t0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+    "name": "Avalanche C-Chain",
+    "network": "avalanche",
+    "token": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+    "symbol": "USDC",
+    "decimals": 6
+  },
+  {
+    "id": "navalanche_t0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7",
+    "name": "Avalanche C-Chain",
+    "network": "avalanche",
+    "token": "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7",
+    "symbol": "USDT",
+    "decimals": 6
+  },
+  {
     "id": "nbase_t0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "name": "Base",
     "network": "base",
@@ -70,6 +86,30 @@
     "token": "BTC",
     "symbol": "BTC",
     "decimals": 8
+  },
+  {
+    "id": "noptimism_t0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
+    "name": "Optimism",
+    "network": "optimism",
+    "token": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
+    "symbol": "USDC",
+    "decimals": 6
+  },
+  {
+    "id": "noptimism_t0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
+    "name": "Optimism",
+    "network": "optimism",
+    "token": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
+    "symbol": "USDC.e",
+    "decimals": 6
+  },
+  {
+    "id": "noptimism_t0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
+    "name": "Optimism",
+    "network": "optimism",
+    "token": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
+    "symbol": "USDT",
+    "decimals": 6
   },
   {
     "id": "npolygon_t0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
