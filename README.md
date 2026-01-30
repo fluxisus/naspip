@@ -1,34 +1,50 @@
 # NASPIP: Network-Agnostic Secure Payment Instruction Protocol
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![GitHub stars](https://img.shields.io/github/stars/fluxisus/naspip?style=social)
+
+> **NASPIP** is developed and maintained by [Fluxis](https://fluxis.us) — the easiest way to accept crypto payments without KYC.
+>
+> 📖 [Full Documentation](https://docs.fluxis.us) | 🚀 [Try Fluxis](https://fluxis.us) | 💬 [Community](https://github.com/fluxisus/naspip/discussions)
+
 ## What is NASPIP?
 
-**NASPIP (Network-Agnostic Secure Payment Instruction Protocol)** is a standard for securely transmitting 
+**NASPIP (Network-Agnostic Secure Payment Instruction Protocol)** is a standard for securely transmitting
 payment instructions regardless of the payment network you want to use.
 
 
-**NASPIP** defines the data structure to be transmitted, allowing for typical open or closed payment flows, static and dynamic QR codes, expiration, etc. 
+**NASPIP** defines the data structure to be transmitted, allowing for typical open or closed payment flows, static and dynamic QR codes, expiration, etc.
 
 It even allows the payers to choose the network and token from various options.
 
+## Getting Started
+
+The fastest way to start using NASPIP is through [Fluxis](https://fluxis.us):
+
+1. Visit [fluxis.us](https://fluxis.us)
+2. Connect your wallet
+3. Generate your first NASPIP payment request
+
+For developers who want to implement NASPIP directly, see the [Protocol Specification](./docs/0.Protocol.md).
 
 ## Motivation
 
-In payment systems, there is a transfer of the information necessary to make the payment from the collector 
+In payment systems, there is a transfer of the information necessary to make the payment from the collector
 to the payer or vice versa.
 
-The different payment methods have developed different solutions to this problem thinking about 
-the best experience for users. For example, credit and debit cards have been changing this solution over time, 
+The different payment methods have developed different solutions to this problem thinking about
+the best experience for users. For example, credit and debit cards have been changing this solution over time,
 facilitating the interaction between the payer and the collector.
 
 For cryptocurrency payments, in particular, this is currently a challenge. The existence of several blockchains
-and tokens, and the type of information that the user needs to handle to make a payment, make it complex for 
+and tokens, and the type of information that the user needs to handle to make a payment, make it complex for
 users who do not have knowledge of blockchain or cryptocurrencies in general.
 
 **NASPIP** is the solution that allows to improve the user experience to the level of other traditional payment methods.
 
 ## Introduction
 
-Payment systems need to transfer information between the payer and the collector. There are 
+Payment systems need to transfer information between the payer and the collector. There are
 some interesting cases that I want to highlight.
 
 - **Lightning Network**
@@ -39,7 +55,7 @@ LN invoices are very practical to present in a QR code and can be generated dyna
 A centralized interoperable solution from the [Central Bank of Brazil (BCB)](https://www.bcb.gov.br/en/financialstability/pix_en). It is a very good solution for payments with the Brazilian banking system.
 </br>
 
-- **QR Interoperable Argentina** 
+- **QR Interoperable Argentina**
 A centralized interoperable solution from the [Central Bank of Argentina (BCRA)](https://www.bcra.gob.ar/), very similar to the PIX Brazil solution. It uses the [EMV&reg; QR](https://www.emvco.com/) standard and the data validation is carried out by the parties that interact in the payment process.
 </br>
 
@@ -51,3 +67,17 @@ For cryptocurrency payment systems we propose this [protocol](./docs/0.Protocol.
 - **Easy to implement:** The implementation to read/write the NASPIP Tokens is totally individual to who wants to use it.
 - **Flexible:** Supports typical open/closed amount payment flows and dynamic/static payment data.
 
+## Implementations
+
+### Official
+- **[Fluxis](https://fluxis.us)** - The reference implementation of NASPIP. Accept crypto payments without KYC.
+
+### Libraries
+- [naspip-js](https://github.com/fluxisus/naspip-js) - JavaScript/TypeScript library
+- [naspip-python](https://github.com/fluxisus/naspip-python) - Python library
+
+*Want to add your implementation? Open a PR!*
+
+## License
+
+MIT
