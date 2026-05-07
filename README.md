@@ -80,4 +80,4 @@ For cryptocurrency payment systems we propose this [protocol](./docs/0.Protocol.
 
 ## License
 
-MIT
+Apache 2.0
